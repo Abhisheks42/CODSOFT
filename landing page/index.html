@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Bean - Eco-Friendly Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">🌱</div>
+                The Green Bean
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#location">Location</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1>Welcome to The Green Bean</h1>
+            <p>Experience premium coffee in an eco-friendly environment. We're excited to announce our grand opening!</p>
+            <a href="#contact" class="cta-button">Visit Us Today</a>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="about">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h2>Sustainably Sourced, Expertly Crafted</h2>
+                    <p>At The Green Bean, we believe that great coffee shouldn't come at the cost of our planet. Our beans are <span class="highlight">ethically sourced</span> from sustainable farms around the world, and we're committed to reducing our environmental footprint in every cup we serve.</p>
+                    <p>From our biodegradable cups to our solar-powered roasting equipment, sustainability isn't just a buzzword for us—it's our mission. Join us in creating a better world, one coffee at a time.</p>
+                    <p>Our expert baristas craft each drink with care, using traditional techniques combined with modern innovation to bring you the perfect cup every time.</p>
+                </div>
+                <div class="intro-image">
+                    <div class="intro-image-bg">
+                        ☕🌱
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinks Section -->
+    <section class="drinks" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Popular Drinks</h2>
+            <div class="drinks-grid">
+                <div class="drink-card">
+                    <span class="drink-icon">☕</span>
+                    <h3>Signature Green Blend</h3>
+                    <p>Our house specialty made with organic, fair-trade beans. Rich, smooth, and perfectly balanced with notes of chocolate and caramel.</p>
+                    <span class="price">$4.50</span>
+                </div>
+                <div class="drink-card">
+                    <span class="drink-icon">🥛</span>
+                    <h3>Oat Milk Latte</h3>
+                    <p>Creamy and sustainable oat milk perfectly steamed with our signature espresso. Topped with beautiful latte art and eco-friendly love.</p>
+                    <span class="price">$5.25</span>
+                </div>
+                <div class="drink-card">
+                    <span class="drink-icon">🍃</span>
+                    <h3>Herbal Energy Tea</h3>
+                    <p>A refreshing blend of organic herbs and green tea. Natural energy boost without the crash, served in our compostable cups.</p>
+                    <span class="price">$3.75</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Location & Hours</h3>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div class="info-text">
+                            <h4>Address</h4>
+                            <p>123 Green Street<br>Eco City, EC 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🕐</span>
+                        <div class="info-text">
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Friday: 6:00 AM - 8:00 PM<br>
+                            Saturday - Sunday: 7:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>(555) 123-BEAN</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>hello@thegreenbean.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Get In Touch</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required placeholder="Tell us about your experience or ask us anything!"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button" onclick="handleSubmit(event)">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="footer-logo-icon">🌱</div>
+                The Green Bean
+            </div>
+            <div class="footer-links">
+                <a href="#about">About Us</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+                <a href="#sustainability">Sustainability</a>
+                <a href="#careers">Careers</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Green Bean. All rights reserved. Made with ☕ and 💚</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
